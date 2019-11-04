@@ -1,0 +1,161 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 10px double;
+	font-family: 'Playfair Display', serif;
+}
+.bg{
+	background:white;
+}
+.title{
+	margin: 2rem;
+	color: rgb(29, 19, 27);
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	margin: 0;
+	
+}
+.filter input[type='text']{
+	margin: 1rem;
+	background: #fff;
+	font-size: 1.3rem;
+	border: none;
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	padding: 0 2rem;
+	width: calc(100% - 2rem);
+	height: 4rem;
+
+}
+
+/* ##### general ##### */
+* {
+	box-sizing: border-box;
+
+}
+main {
+	padding: 0 0rem;
+	background-color: light;
+}
+
+/* ##### Search ##### */
+header {
+	margin-bottom: 0;
+	
+}
+*{
+	box-sizing: border-box;
+	
+}
+
+.addBuilding input[type='text'] {
+	border: none;
+	background: #fff;
+	font-size: 1.3rem;
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	height: 2rem;
+	width: 50%;
+}
+.addBuilding {
+	font-size: 20px;
+	
+}
+
+
+/* ##### NamesList ##### */
+tr {
+	padding: 0;
+}
+th {
+	position: left;
+	list-style: none;
+	padding: 0.25rem 0.75rem;
+	margin: 2px;
+	border-radius: 3px;
+}
+td:hover {
+	position: left;
+	cursor: pointer;
+	background-color: whitesmoke;
+}
+
+/* ##### Columns ##### */
+.column1 {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+.column2 {
+	float: left;
+	width: 50%;
+	padding: 20px;
+	font-size: 20px;
+	color: darkorange;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.col{
+	font-size: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+	border-radius: 3px;
+	text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.75);
+	color:darkslateblue;
+	border-color: #382e2e;
+	font: outline;
+
+}
+
+/* ##### Rows ##### */
+.row {
+	margin: 1rem;
+}
+
+.row:after {
+	padding: 1 0rem;
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.tableWrapper {
+	max-height: 800px;
+	overflow: auto;
+	scroll-behavior: smooth;
+
+}
+
+/* ##### Footer ##### */
+.credit {
+	padding: 1rem 0;
+	color: #b3b3b3;
+}
+.credit a {
+	color: #3498bb;
+}
+button {
+	background: #3e0ace;
+	color: white;
+	padding: 0.6rem 1rem;
+	font-size: 0.8rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border: solid 1px #c7c7c7;
+	margin: 1rem 0;
+	box-shadow: 0 3px 10px transparent;
+	border-radius: 3px;
+	outline: none;
+}
+
+button:hover {
+	background: #ddd;
+}
+
+.addinfo
+{
+	font-family:'Times New Roman', Times, serif;
+	border: 1x ;
+	font-size: 100%;
+	background-color: #b3b3b3;
+}
+
+
